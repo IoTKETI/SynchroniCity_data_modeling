@@ -1,5 +1,5 @@
 {  
-   "m2m:sc_bst":{  
+   "m2m:sc_busStop":{  
       "pi":"B1X4CeR_57",
       "ri":"B1QvdPxKqX",
       "ty":28,
@@ -9,9 +9,10 @@
       "lt":"20181008T152743",
       "et":"20211008T152743",
       "cnd":"http://developers.iotocean.org/schema/busStop.xsd",
+      "type":"busStop",
       "name":"yatapstation",
       "direction":"south",
-      "shortID":"206000529",
+      "localID":"206000529",
       "location":{  
          "type":"Point",
          "coordinates":[  

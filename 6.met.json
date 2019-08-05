@@ -1,5 +1,5 @@
 {
-   "m2m:sc_met": {
+   "m2m:sc_metro": {
       "pi": "HkQwQFxtcm",
       "ri": "r1QhHYeF9X",
       "ty": 28,
@@ -14,7 +14,7 @@
          "metro"
       ],
       "direction": "wangsimni",
-      "operationNorm": [
+      "operationWeek": [
          "05:16:00",
          "05:28:00",
          "05:40:00",

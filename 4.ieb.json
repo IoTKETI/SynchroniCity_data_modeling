@@ -1,0 +1,33 @@
+{
+   "m2m:sc_ieb": {
+      "pi": "S1XKNUFXsX",
+      "ri": "SJQzzEXQnm",
+      "ty": 28,
+      "ct": "20181028T115657",
+      "st": 0,
+      "rn": "bus_dongdaegu",
+      "lt": "20181028T115657",
+      "et": "20211028T115657",
+      "cnd": "http://developers.iotocean.org/schema/interBus.xsd",
+      "type": "InterBus",
+      "category": [
+         "ExpressBus"
+      ],
+      "destination": "Dongdaegu(Seodaegu)",
+      "duration": "P0Y0M0DT3H15MS",
+      "depTime": [
+         "06:40:00",
+         "08:00:00",
+         "09:20:00",
+         "10:40:00",
+         "12:00:00",
+         "13:20:00",
+         "14:40:00",
+         "15:50:00",
+         "17:00:00",
+         "18:00:00",
+         "20:00:00",
+         "22:00:00"
+      ]
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "m2m:sc_icb": {
+      "pi": "SymEJbA_57",
+      "ri": "HJXH8dlYqQ",
+      "ty": 28,
+      "ct": "20181008T153124",
+      "st": 0,
+      "rn": "SN_citybus_330",
+      "lt": "20181008T153124",
+      "et": "20211008T153124",
+      "cnd": "http://developers.iotocean.org/schema/intraBus.xsd",
+      "type": "IntraBus",
+      "category": [
+         "NormalBus"
+      ],
+      "destination": "Seokwundong",
+      "routeID": "204000039",
+      "busStopID": "206000157",
+      "origin": "Sangseongdong",
+      "direction": "south",
+      "operationNorm": "04:40:00,22:20:00",
+      "operationHoli": "04:40:00,22:20:00",
+      "intervalNorm": "P0Y0M0DT0H08MS,P0Y0M0DT0H13MS",
+      "intervalHoli": "P0Y0M0DT0H15MS,P0Y0M0DT0H20MS",
+      "localID": "330"
+   }
+}

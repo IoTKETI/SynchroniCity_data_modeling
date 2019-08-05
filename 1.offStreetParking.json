@@ -1,0 +1,47 @@
+{
+   "m2m:sc_offLot": {
+      "rn": "yt_lot_3",
+      "ty": 28,
+      "pi": "SkmnDBfeHX",
+      "ri": "SepCIhDWbQ",
+      "ct": "20180806T051247",
+      "et": "20210806T051247",
+      "lt": "20180806T051247",
+      "st": 132253,
+      "cnd": "http://developers.iotocean.org/schema/offStreetParking.xsd",
+      "type": "OffStreetParking",
+      "name": "parkingLot_3",
+      "category": [
+         "public"
+      ],
+      "location": {
+         "type": "Point",
+         "coordinates": [
+            -3.678146524,
+            50.468753214
+         ]
+      },
+      "priceRatePerMinute": 200,
+      "paymentAccepted": [
+         "Cash",
+         "Credit Card"
+      ],
+      "image": "http://developers.iotocean.org/photosave/ytLot1pics",
+      "openingHours": [
+         "Mo-Su 00:00-24:00"
+      ],
+      "contactPoint": {
+         "telephone": "031-000-0000",
+         "email": "parking@seongnam.kr",
+         "contactType": "City-hall"
+      },
+      "availableSpotNumber": 37,
+      "totalSpotNumber": 50,
+      "refParkingSpot": [
+         "Mobius/syncParking/yt_lot_3/spot_601",
+         "Mobius/syncParking/yt_lot_3/spot_602",
+         "Mobius/syncParking/yt_lot_3/spot_603",
+         "Mobius/syncParking/yt_lot_3/spot_604"
+      ]
+   }
+}

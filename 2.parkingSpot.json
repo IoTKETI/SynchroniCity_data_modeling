@@ -1,6 +1,6 @@
 {
-    "m2m:sc_parkingSpot": {
-        "rn": "spot_001",
+    "sc:parkingSpot": {
+        "rn": "parkingSpot_001",
         "ty": 28,
         "pi": "SkmnDBfeHX",
         "ri": "SymEIuUHrQ",
@@ -12,7 +12,7 @@
         "type": "ParkingSpot",
         "name": "parkingSpot_001",
         "category": [
-            "offStreet"
+            "OffStreet"
         ],
         "location": {
             "type": "Point",
@@ -23,8 +23,8 @@
         },
         "status": "free",
         "userTypeLimit": [
-            "disabled",
-            "pregnant"
+            "Disabled",
+            "Pregnant"
         ],
         "refParkingLot": "Mobius/sync_parking/yt_lot_1"
     }

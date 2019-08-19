@@ -1,6 +1,6 @@
 {
-   "m2m:sc_parkingBlock": {
-      "rn": "KETI_aBlock",
+   "sc:parkingBlock": {
+      "rn": "KETI_Block_A",
       "ty": 28,
       "pi": "SkmnDBfeHX",
       "ri": "SymEIuUHrQ",
@@ -10,7 +10,7 @@
       "st": 8929,
       "cnd": "http://developers.iotocean.org/schema/parkingBlock.xsd",
       "type": "ParkingBlock",
-      "name": "KETI_A",
+      "name": "KETI_Block_A",
       "category": [],
       "location": {
          "type": "Point",

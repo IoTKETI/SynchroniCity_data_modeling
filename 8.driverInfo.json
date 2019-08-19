@@ -1,0 +1,31 @@
+{
+   "sc:driverInfo": {
+      "rn": "insong@gmail.com",
+      "ty": 28,
+      "pi": "SkmnDBfeHX",
+      "ri": "SymEIuUHrQ",
+      "ct": "20180806T051036",
+      "et": "20210806T051036",
+      "lt": "20180806T051036",
+      "st": 8929,
+      "cnd": "http://developers.iotocean.org/schema/userData.xsd",
+      "type": "UserData",
+      "name": "insong@gmail.com",
+      "vehicleType": "SUV",
+      "favoriteBlock": "Mobius/syncParking/KETI_Block_A",
+      "favoriteParkingLot": "Mobius/syncParking/keti_lot",
+      "favoriteTransportation": [
+        "subway_yataptowangsimni",
+        "SN_citybus_330"
+      ],
+      "plateNumber": "35허6015",
+      "phoneNumber": "010-1111-1111",
+      "parkingLocation": {
+        "type": "Point",
+        "coordinates": [
+           37.4037059,
+           127.1594274
+        ]
+     }
+   }
+}

@@ -1,5 +1,5 @@
 {
-   "m2m:sc_metro": {
+   "sc:metro": {
       "pi": "HkQwQFxtcm",
       "ri": "r1QhHYeF9X",
       "ty": 28,
@@ -10,8 +10,9 @@
       "et": "20211008T153531",
       "cnd": "http://developers.iotocean.org/schema/metro.xsd",
       "type": "Metro",
+      "name": "subway_yataptowangsimni",
       "category": [
-         "metro"
+         "Metro"
       ],
       "direction": "wangsimni",
       "operationWeek": [

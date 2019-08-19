@@ -1,6 +1,6 @@
 {
-   "m2m:sc_offStreetParking": {
-      "rn": "yt_lot_3",
+   "sc:offStreetParking": {
+      "rn": "parkingLot_3",
       "ty": 28,
       "pi": "SkmnDBfeHX",
       "ri": "SepCIhDWbQ",
@@ -12,7 +12,7 @@
       "type": "OffStreetParking",
       "name": "parkingLot_3",
       "category": [
-         "public"
+         "Public"
       ],
       "location": {
          "type": "Point",

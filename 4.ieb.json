@@ -1,5 +1,5 @@
 {
-   "m2m:sc_interCityBus": {
+   "sc:interCityBus": {
       "pi": "S1XKNUFXsX",
       "ri": "SJQzzEXQnm",
       "ty": 28,
@@ -10,8 +10,9 @@
       "et": "20211028T115657",
       "cnd": "http://developers.iotocean.org/schema/interCityBus.xsd",
       "type": "InterCityBus",
+      "name": "bus_dongdaegu",
       "category": [
-         "interCityBus",
+         "InterCityBus",
          "ExpressBus"
       ],
       "destination": "Dongdaegu(Seodaegu)",

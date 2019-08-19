@@ -9,7 +9,7 @@
       "lt": "20180806T051036",
       "st": 8929,
       "cnd": "http://developers.iotocean.org/schema/userData.xsd",
-      "type": "UserData",
+      "type": "driverInfo",
       "name": "insong@gmail.com",
       "vehicleType": "SUV",
       "favoriteBlock": "Mobius/syncParking/KETI_Block_A",

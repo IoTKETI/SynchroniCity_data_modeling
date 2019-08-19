@@ -1,5 +1,5 @@
 {
-   "sc:intraCitybus": {
+   "sc:intraCityBus": {
       "pi": "SymEJbA_57",
       "ri": "HJXH8dlYqQ",
       "ty": 28,
@@ -12,7 +12,7 @@
       "type": "intraCitybus",
       "name": "SN_citybus_330",
       "category": [
-         "IntraCitybus"
+         "IntraCityBus"
       ],
       "destination": "Seokwundong",
       "routeID": "204000039",

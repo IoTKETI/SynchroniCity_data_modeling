@@ -8,11 +8,11 @@
       "et": "20210806T051036",
       "lt": "20180806T051036",
       "st": 8929,
-      "cnd": "http://developers.iotocean.org/schema/userData.xsd",
+      "cnd": "http://developers.iotocean.org/schema/driverInfo.xsd",
       "type": "driverInfo",
       "name": "insong@gmail.com",
       "vehicleType": "SUV",
-      "favoriteBlock": "Mobius/syncParking/KETI_Block_A",
+      "favoriteParkingBlock": "Mobius/syncParking/KETI_Block_A",
       "favoriteParkingLot": "Mobius/syncParking/keti_lot",
       "favoriteTransportation": [
         "subway_yataptowangsimni",

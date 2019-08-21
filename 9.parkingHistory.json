@@ -1,0 +1,34 @@
+{
+    "sc:parkingHistory": {
+        "rn": "flex-5LW3C",
+        "ty": 28,
+        "pi": "SkmnDBfeHX",
+        "ri": "SymEIuUHrQ",
+        "ct": "20180806T051036",
+        "et": "20210806T051036",
+        "lt": "20180806T051036",
+        "st": 8929,
+        "cnd": "http://developers.iotocean.org/schema/parkingHistory.xsd",
+        "type": "parkingHistory",
+        "parkingStartTime": "20190821T145822",
+        "parkingEndTime": "20190821T145841",
+        "parkingTime": 19.57269415855408,
+        "label": [
+            "A"
+        ],
+        "beaconData": {
+            "major": 18.7656952,
+            "minor": 19.5826354
+        },
+        "parkingLot": "wdc_base/sync_parking/parkingLot_1",
+        "parkingLocation": {
+            "type": "Point",
+            "coordinates": [
+                37.4037059,
+                127.1594274
+            ]
+        },
+        "osType": "iOS",
+        "appVersion": "1.0.0"
+    }
+}

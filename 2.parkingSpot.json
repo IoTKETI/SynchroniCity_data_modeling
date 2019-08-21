@@ -26,6 +26,6 @@
             "Disabled",
             "Pregnant"
         ],
-        "refParkingLot": "Mobius/sync_parking/yt_lot_1"
+        "refParkingLot": "wdc_base/sync_parking/parkingLot_1"
     }
 }

@@ -1,0 +1,637 @@
+{
+	"info": {
+		"_postman_id": "43d1b83a-35d4-4542-a512-c9b1b8a0fd7f",
+		"name": "SynchroniCity data Create",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1-1.parkingLot_1 CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:offStreetParking\": {\n        \"rn\": \"parkingLot_1\",\n        \"cnd\": \"http://developers.iotocean.org/schema/offStreetParking.xsd\",\n        \"type\": \"OffStreetParking\",\n        \"name\": \"parkingLot_1\",\n        \"category\": [\n            \"Public\"\n        ],\n        \"location\": {\n            \"type\": \"Point\",\n            \"coordinates\": [\n                37.4114423,\n                127.1293735\n            ]\n        },\n        \"priceRate\": {\n            \"first30Minutes\": 400,\n            \"per10Minutes\": 200,\n            \"perDay\": 6000\n        },\n        \"paymentAccepted\": [\n            \"Credit Card\"\n        ],\n        \"image\": \"http://developers.iotocean.org/photosave/ytLot1pics\",\n        \"openingHours\": [\n            \"Mo-Su 00:00-24:00\"\n        ],\n        \"contactPoint\": {\n            \"telephone\": \"031-707-0109\",\n            \"contactType\": \"Seongnam Development Corporation\"\n        },\n        \"availableSpotNumber\": 0,\n        \"totalSpotNumber\": 110,\n        \"refParkingSpot\": [\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_001\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_002\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_003\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_004\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_005\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_006\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_007\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_008\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_009\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_010\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_011\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_012\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_013\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_014\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_015\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_016\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_017\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_018\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_019\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_020\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_021\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_022\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_023\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_024\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_025\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_026\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_027\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_028\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_029\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_030\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_031\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_032\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_033\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_034\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_035\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_036\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_037\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_038\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_039\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_040\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_041\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_042\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_043\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_044\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_045\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_046\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_047\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_048\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_101\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_102\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_103\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_104\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_105\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_106\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_107\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_108\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_109\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_110\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_111\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_112\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_113\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_114\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_115\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_116\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_117\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_118\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_119\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_120\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_121\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_122\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_123\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_124\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_125\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_126\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_127\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_128\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_129\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_130\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_131\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_132\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_133\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_134\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_135\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_136\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_137\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_138\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_139\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_140\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_141\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_142\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_143\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_144\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_145\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_146\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_147\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_148\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_149\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_150\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_151\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_152\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_153\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_154\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_155\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_156\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_157\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_158\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_159\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_160\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_161\",\n            \"wdc_base/sync_parking/parkingLot_1/parkingSpot_162\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "1-2.parkingLot_1 RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/parkingLot_1",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"parkingLot_1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2-1.parkingSpot_001 CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:parkingSpot\": {\n        \"rn\": \"parkingSpot_0010\",\n        \"cnd\": \"http://developers.iotocean.org/schema/parkingSpot.xsd\",\n        \"type\": \"ParkingSpot\",\n        \"name\": \"parkingSpot_001\",\n        \"category\": [\n            \"OffStreet\"\n        ],\n        \"location\": {\n            \"type\": \"Point\",\n            \"coordinates\": [\n                37.4114423,\n                127.1293735\n            ]\n        },\n        \"status\": \"free\",\n        \"userType\": \"Disabled\",\n        \"refParkingLot\": \"wdc_base/sync_parking/parkingLot_1\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/parkingLot_1",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"parkingLot_1"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "2-2.parkingSpot_001 RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/parkingLot_1/parkingSpot_001",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"parkingLot_1",
+						"parkingSpot_001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3-1.KETI_Block_A CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:parkingBlock\": {\n        \"rn\": \"KETI_Block_A\",\n        \"cnd\": \"http://developers.iotocean.org/schema/parkingBlock.xsd\",\n        \"type\": \"ParkingBlock\",\n        \"name\": \"KETI_Block_A\",\n        \"location\": {\n            \"type\": \"Point\",\n            \"coordinates\": [\n                37.4038929,\n                127.1604458\n            ]\n        },\n        \"congestionLevel\": 150,\n        \"refParkingLot\": \"wdc_base/sync_Parking/parkingLot_KETI\",\n        \"refParkingSpot\": [\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_001\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_002\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_003\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_004\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_005\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_006\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_007\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_008\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_009\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_010\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_011\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_012\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_013\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_014\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_015\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_016\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_017\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_018\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_019\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_020\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_021\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_022\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_023\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_024\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_025\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_026\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_027\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_028\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_029\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_030\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_031\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_032\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_033\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_034\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_035\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_036\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_037\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_038\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_039\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_040\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_041\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_042\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_043\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_044\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_045\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_046\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_047\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_048\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_049\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_050\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_051\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_052\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_053\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_054\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_055\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_056\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_057\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_058\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_059\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_060\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_061\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_062\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_063\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_064\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_065\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_066\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_067\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_068\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_069\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_070\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_071\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_072\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_073\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_074\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_075\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_076\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_077\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_078\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_079\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_080\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_081\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_082\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_083\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_084\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_085\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_086\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_087\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_088\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_089\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_090\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_091\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_092\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_093\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_094\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_095\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_096\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_097\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_098\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_099\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_100\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_101\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_102\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_103\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_104\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_105\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_106\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_107\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_108\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_109\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_110\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_111\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_112\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_113\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_114\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_115\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_116\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_117\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_118\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_119\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_120\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_121\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_122\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_123\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_124\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_125\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_126\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_127\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_128\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_129\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_130\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_131\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_132\",\n            \"wdc_base/sync_parking/parkingLot_KETI/parkingSpot_133\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/parkingLot_KETI",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"parkingLot_KETI"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "3-2.KETI_Block_A RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/parkingLot_KETI/KETI_Block_A",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"parkingLot_KETI",
+						"KETI_Block_A"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4-1.interCityBus  CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:interCityBus\": {\n        \"rn\": \"dongdaegu\",\n        \"cnd\": \"http://developers.iotocean.org/schema/interCityBus.xsd\",\n        \"type\": \"InterCityBus\",\n        \"name\": \"dongdaegu\",\n        \"destination\": \"Dongdaegu(Seodaegu)\",\n        \"duration\": \"P0Y0M0DT3H15MS\",\n        \"category\": [\n            \"ExpressBus\"\n        ],\n        \"depTime\": [\n            \"06:40:00\",\n            \"08:00:00\",\n            \"09:20:00\",\n            \"10:40:00\",\n            \"12:00:00\",\n            \"13:20:00\",\n            \"14:40:00\",\n            \"15:50:00\",\n            \"17:00:00\",\n            \"18:00:00\",\n            \"20:00:00\",\n            \"22:00:00\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/interbus",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"interbus"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "4-2.interCityBus RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/interbus/dongdaegu",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"interbus",
+						"dongdaegu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5-1.intraCityBus CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:intraCityBus\": {\n        \"rn\": \"330\",\n        \"cnd\": \"http://developers.iotocean.org/schema/intraCitybus.xsd\",\n        \"type\": \"intraCitybus\",\n        \"name\": \"citybus_330\",\n        \"category\": [\n            \"IntraCityBus\"\n        ],\n        \"destination\": \"Seokwundong\",\n        \"routeID\": \"204000039\",\n        \"busStopID\": \"206000157\",\n        \"origin\": \"Sangseongdong\",\n        \"direction\": \"south\",\n        \"operationWeek\": [\n            \"04:40:00\",\n            \"22:20:00\"\n        ],\n        \"operationHoli\": [\n            \"04:40:00\",\n            \"22:20:00\"\n        ],\n        \"intervalWeek\": [\n            \"P0Y0M0DT0H08MS\",\n            \"P0Y0M0DT0H13MS\"\n        ],\n        \"intervalHoli\": [\n            \"P0Y0M0DT0H15MS\",\n            \"P0Y0M0DT0H20MS\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/intrabus/south",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"intrabus",
+						"south"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "5-2.intraCityBus RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/intrabus/south/330",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"intrabus",
+						"south",
+						"330"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6-1.subway CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:metro\": {\n        \"rn\": \"wangsimni\",\n        \"cnd\": \"http://developers.iotocean.org/schema/metro.xsd\",\n        \"type\": \"Metro\",\n        \"name\": \"wangsimni\",\n        \"category\": [\n            \"Metro\"\n        ],\n        \"direction\": \"wangsimni\",\n        \"operationWeek\": [\n            \"05:16:00\",\n            \"05:28:00\",\n            \"05:40:00\",\n            \"05:50:00\",\n            \"05:57:00\",\n            \"06:04:00\",\n            \"06:12:00\",\n            \"06:19:00\",\n            \"06:25:00\",\n            \"06:32:00\",\n            \"06:38:00\",\n            \"06:46:00\",\n            \"06:51:00\",\n            \"06:59:00\",\n            \"07:05:00\",\n            \"07:12:00\",\n            \"07:16:00\",\n            \"07:21:00\",\n            \"07:27:00\",\n            \"07:31:00\",\n            \"07:35:00\",\n            \"07:40:00\",\n            \"07:43:00\",\n            \"07:47:00\",\n            \"07:55:00\",\n            \"08:03:00\",\n            \"08:06:00\",\n            \"08:09:00\",\n            \"08:13:00\",\n            \"08:22:00\",\n            \"08:26:00\",\n            \"08:30:00\",\n            \"08:34:00\",\n            \"08:39:00\",\n            \"08:49:00\",\n            \"08:55:00\",\n            \"09:01:00\",\n            \"09:07:00\",\n            \"09:14:00\",\n            \"09:21:00\",\n            \"09:28:00\",\n            \"09:35:00\",\n            \"09:42:00\",\n            \"09:49:00\",\n            \"09:57:00\",\n            \"10:05:00\",\n            \"10:15:00\",\n            \"10:24:00\",\n            \"10:33:00\",\n            \"10:41:00\",\n            \"10:49:00\",\n            \"10:56:00\",\n            \"11:03:00\",\n            \"11:11:00\",\n            \"11:20:00\",\n            \"11:28:00\",\n            \"11:36:00\",\n            \"11:44:00\",\n            \"11:52:00\",\n            \"12:00:00\",\n            \"12:08:00\",\n            \"12:16:00\",\n            \"12:24:00\",\n            \"12:32:00\",\n            \"12:40:00\",\n            \"12:48:00\",\n            \"12:56:00\",\n            \"13:04:00\",\n            \"13:12:00\",\n            \"13:20:00\",\n            \"13:28:00\",\n            \"13:36:00\",\n            \"13:44:00\",\n            \"13:52:00\",\n            \"14:00:00\",\n            \"14:08:00\",\n            \"14:16:00\",\n            \"14:24:00\",\n            \"14:32:00\",\n            \"14:40:00\",\n            \"14:48:00\",\n            \"14:56:00\",\n            \"15:04:00\",\n            \"15:12:00\",\n            \"15:20:00\",\n            \"15:28:00\",\n            \"15:36:00\",\n            \"15:44:00\",\n            \"15:52:00\",\n            \"16:00:00\",\n            \"16:08:00\",\n            \"16:16:00\",\n            \"16:24:00\",\n            \"16:32:00\",\n            \"16:37:00\",\n            \"16:42:00\",\n            \"16:48:00\",\n            \"16:53:00\",\n            \"16:58:00\",\n            \"17:03:00\",\n            \"17:09:00\",\n            \"17:16:00\",\n            \"17:20:00\",\n            \"17:24:00\",\n            \"17:30:00\",\n            \"17:35:00\",\n            \"17:41:00\",\n            \"17:46:00\",\n            \"17:51:00\",\n            \"17:57:00\",\n            \"18:02:00\",\n            \"18:07:00\",\n            \"18:12:00\",\n            \"18:17:00\",\n            \"18:21:00\",\n            \"18:26:00\",\n            \"18:30:00\",\n            \"18:35:00\",\n            \"18:40:00\",\n            \"18:45:00\",\n            \"18:49:00\",\n            \"18:54:00\",\n            \"18:59:00\",\n            \"19:04:00\",\n            \"19:11:00\",\n            \"19:16:00\",\n            \"19:21:00\",\n            \"19:25:00\",\n            \"19:36:00\",\n            \"19:42:00\",\n            \"19:48:00\",\n            \"19:53:00\",\n            \"19:58:00\",\n            \"20:02:00\",\n            \"20:07:00\",\n            \"20:17:00\",\n            \"20:24:00\",\n            \"20:28:00\",\n            \"20:33:00\",\n            \"20:41:00\",\n            \"20:45:00\",\n            \"20:50:00\",\n            \"20:57:00\",\n            \"21:05:00\",\n            \"21:13:00\",\n            \"21:21:00\",\n            \"21:29:00\",\n            \"21:37:00\",\n            \"21:45:00\",\n            \"21:54:00\",\n            \"22:02:00\",\n            \"22:09:00\",\n            \"22:15:00\",\n            \"22:21:00\",\n            \"22:30:00\",\n            \"22:38:00\",\n            \"22:47:00\",\n            \"22:58:00\",\n            \"23:10:00\",\n            \"23:22:00\",\n            \"23:33:00\",\n            \"23:47:00\"\n        ],\n        \"station\": \"yatap\",\n        \"line\": \"bundang\",\n        \"operationWeekExpress\": [\n            \"07:24:00\",\n            \"07:50:00\",\n            \"08:00:00\",\n            \"08:17:00\",\n            \"08:43:00\",\n            \"19:30:00\",\n            \"20:11:00\"\n        ],\n        \"operationSat\": [\n            \"05:16:00\",\n            \"05:31:00\",\n            \"05:46:00\",\n            \"05:56:00\",\n            \"06:07:00\",\n            \"06:16:00\",\n            \"06:27:00\",\n            \"06:36:00\",\n            \"06:47:00\",\n            \"06:54:00\",\n            \"07:03:00\",\n            \"07:10:00\",\n            \"07:18:00\",\n            \"07:27:00\",\n            \"07:35:00\",\n            \"07:44:00\",\n            \"07:51:00\",\n            \"08:00:00\",\n            \"08:07:00\",\n            \"08:16:00\",\n            \"08:24:00\",\n            \"08:32:00\",\n            \"08:40:00\",\n            \"08:48:00\",\n            \"08:56:00\",\n            \"09:04:00\",\n            \"09:11:00\",\n            \"09:19:00\",\n            \"09:26:00\",\n            \"09:34:00\",\n            \"09:41:00\",\n            \"09:48:00\",\n            \"09:55:00\",\n            \"10:02:00\",\n            \"10:09:00\",\n            \"10:16:00\",\n            \"10:23:00\",\n            \"10:30:00\",\n            \"10:37:00\",\n            \"10:44:00\",\n            \"10:51:00\",\n            \"10:58:00\",\n            \"11:05:00\",\n            \"11:12:00\",\n            \"11:19:00\",\n            \"11:27:00\",\n            \"11:33:00\",\n            \"11:40:00\",\n            \"11:47:00\",\n            \"11:54:00\",\n            \"12:01:00\",\n            \"12:08:00\",\n            \"12:15:00\",\n            \"12:22:00\",\n            \"12:29:00\",\n            \"12:36:00\",\n            \"12:43:00\",\n            \"12:50:00\",\n            \"12:57:00\",\n            \"13:04:00\",\n            \"13:11:00\",\n            \"13:18:00\",\n            \"13:25:00\",\n            \"13:32:00\",\n            \"13:39:00\",\n            \"13:46:00\",\n            \"13:53:00\",\n            \"14:00:00\",\n            \"14:07:00\",\n            \"14:14:00\",\n            \"14:21:00\",\n            \"14:28:00\",\n            \"14:35:00\",\n            \"14:42:00\",\n            \"14:49:00\",\n            \"14:56:00\",\n            \"15:03:00\",\n            \"15:10:00\",\n            \"15:17:00\",\n            \"15:24:00\",\n            \"15:31:00\",\n            \"15:38:00\",\n            \"15:45:00\",\n            \"15:52:00\",\n            \"15:59:00\",\n            \"16:06:00\",\n            \"16:13:00\",\n            \"16:20:00\",\n            \"16:27:00\",\n            \"16:34:00\",\n            \"16:41:00\",\n            \"16:48:00\",\n            \"16:55:00\",\n            \"17:02:00\",\n            \"17:09:00\",\n            \"17:16:00\",\n            \"17:23:00\",\n            \"17:30:00\",\n            \"17:37:00\",\n            \"17:44:00\",\n            \"17:51:00\",\n            \"17:58:00\",\n            \"18:05:00\",\n            \"18:13:00\",\n            \"18:20:00\",\n            \"18:27:00\",\n            \"18:34:00\",\n            \"18:41:00\",\n            \"18:48:00\",\n            \"18:55:00\",\n            \"19:02:00\",\n            \"19:10:00\",\n            \"19:18:00\",\n            \"19:26:00\",\n            \"19:35:00\",\n            \"19:44:00\",\n            \"19:53:00\",\n            \"20:02:00\",\n            \"20:11:00\",\n            \"20:21:00\",\n            \"20:31:00\",\n            \"20:41:00\",\n            \"20:52:00\",\n            \"21:02:00\",\n            \"21:12:00\",\n            \"21:22:00\",\n            \"21:32:00\",\n            \"21:42:00\",\n            \"21:52:00\",\n            \"22:02:00\",\n            \"22:14:00\",\n            \"22:26:00\",\n            \"22:38:00\",\n            \"22:52:00\",\n            \"23:07:00\",\n            \"23:27:00\",\n            \"23:47:00\"\n        ],\n        \"operationSun\": [\n            \"05:16:00\",\n            \"05:31:00\",\n            \"05:48:00\",\n            \"06:07:00\",\n            \"06:16:00\",\n            \"06:27:00\",\n            \"06:36:00\",\n            \"06:47:00\",\n            \"07:07:00\",\n            \"07:17:00\",\n            \"07:27:00\",\n            \"07:47:00\",\n            \"07:58:00\",\n            \"08:07:00\",\n            \"08:17:00\",\n            \"08:27:00\",\n            \"08:37:00\",\n            \"08:47:00\",\n            \"08:56:00\",\n            \"09:04:00\",\n            \"09:11:00\",\n            \"09:19:00\",\n            \"09:26:00\",\n            \"09:34:00\",\n            \"09:41:00\",\n            \"09:48:00\",\n            \"09:55:00\",\n            \"10:02:00\",\n            \"10:09:00\",\n            \"10:16:00\",\n            \"10:23:00\",\n            \"10:30:00\",\n            \"10:37:00\",\n            \"10:44:00\",\n            \"10:51:00\",\n            \"10:58:00\",\n            \"11:05:00\",\n            \"11:12:00\",\n            \"11:19:00\",\n            \"11:27:00\",\n            \"11:33:00\",\n            \"11:40:00\",\n            \"11:47:00\",\n            \"11:54:00\",\n            \"12:01:00\",\n            \"12:08:00\",\n            \"12:15:00\",\n            \"12:22:00\",\n            \"12:29:00\",\n            \"12:36:00\",\n            \"12:43:00\",\n            \"12:50:00\",\n            \"12:57:00\",\n            \"13:04:00\",\n            \"13:11:00\",\n            \"13:18:00\",\n            \"13:25:00\",\n            \"13:32:00\",\n            \"13:39:00\",\n            \"13:46:00\",\n            \"13:53:00\",\n            \"14:00:00\",\n            \"14:07:00\",\n            \"14:14:00\",\n            \"14:21:00\",\n            \"14:28:00\",\n            \"14:35:00\",\n            \"14:42:00\",\n            \"14:49:00\",\n            \"14:56:00\",\n            \"15:03:00\",\n            \"15:10:00\",\n            \"15:17:00\",\n            \"15:24:00\",\n            \"15:31:00\",\n            \"15:38:00\",\n            \"15:45:00\",\n            \"15:52:00\",\n            \"15:59:00\",\n            \"16:06:00\",\n            \"16:13:00\",\n            \"16:20:00\",\n            \"16:27:00\",\n            \"16:34:00\",\n            \"16:41:00\",\n            \"16:48:00\",\n            \"16:55:00\",\n            \"17:02:00\",\n            \"17:09:00\",\n            \"17:16:00\",\n            \"17:23:00\",\n            \"17:30:00\",\n            \"17:37:00\",\n            \"17:44:00\",\n            \"17:51:00\",\n            \"17:58:00\",\n            \"18:05:00\",\n            \"18:13:00\",\n            \"18:20:00\",\n            \"18:27:00\",\n            \"18:34:00\",\n            \"18:41:00\",\n            \"18:48:00\",\n            \"18:55:00\",\n            \"19:02:00\",\n            \"19:10:00\",\n            \"19:18:00\",\n            \"19:26:00\",\n            \"19:35:00\",\n            \"19:44:00\",\n            \"19:53:00\",\n            \"20:07:00\",\n            \"20:21:00\",\n            \"20:34:00\",\n            \"20:47:00\",\n            \"21:07:00\",\n            \"21:27:00\",\n            \"21:42:00\",\n            \"21:52:00\",\n            \"22:02:00\",\n            \"22:15:00\",\n            \"22:23:00\",\n            \"22:38:00\",\n            \"22:52:00\",\n            \"23:07:00\",\n            \"23:27:00\",\n            \"23:47:00\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/metro",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"metro"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "6-2.subway RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/metro/wangsimni",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"metro",
+						"wangsimni"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7-1.busStop CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sc:busStop\": {\n        \"rn\": \"206000529\",\n        \"cnd\": \"http://developers.iotocean.org/schema/busStop.xsd\",\n        \"type\": \"busStop\",\n        \"name\": \"yatapstation\",\n        \"direction\": \"south\",\n        \"localID\": \"206000529\",\n        \"location\": {\n            \"type\": \"Point\",\n            \"coordinates\": [\n                37.4119958,\n                127.1285029\n            ]\n        },\n        \"refBusLines\": [\n            \"wdc_base/transportation/intrabus/north/1005\",\n            \"wdc_base/transportation/intrabus/north/103\",\n            \"wdc_base/transportation/intrabus/north/116-3\"\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/busstop",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"busstop"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "7-2.busStop RETRIEVE",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "1234er5"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/transportation/busstop/206000529",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"transportation",
+						"busstop",
+						"206000529"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8.driverInfo CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"sc:driverInfo\": {\r\n      \"cnd\": \"http://developers.iotocean.org/schema/driverInfo.xsd\",\r\n      \"type\": \"driverInfo\",\r\n      \"name\": \"insong@gmail.com\",\r\n      \"vehicleType\": \"SUV\",\r\n      \"favoriteParkingBlock\": [\r\n         \"wdc_base/sync_parking/KETI_Block_A\"\r\n      ],\r\n      \"favoriteParkingLot\": [\r\n         \"wdc_base/sync_parking/parkingLot_KETI\",\r\n         \"wdc_base/sync_parking/parkingLot_1\"\r\n      ],\r\n      \"favoriteTransportation\": [\r\n        \"wdc_base/transportation/metro/subway_yataptowangsimni\",\r\n        \"wdc_base/transportation/intrabus/south/SN_citybus_330\"\r\n      ],\r\n      \"userType\": \"Pregnant\",\r\n      \"plateNumber\": \"35허6015\",\r\n      \"phoneNumber\": \"010-1111-1111\",\r\n      \"parkingLocation\": {\r\n        \"type\": \"Point\",\r\n        \"coordinates\": [\r\n           37.4037059,\r\n           127.1594274\r\n        ]\r\n     }\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/users",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"users"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		},
+		{
+			"name": "9.parkingHistory CREATE",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "X-M2M-RI",
+						"value": "12aadftret345"
+					},
+					{
+						"key": "X-M2M-Origin",
+						"value": "S20170717074825768bp2l"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json; ty=28"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sc:parkingHistory\": {\r\n        \"cnd\": \"http://developers.iotocean.org/schema/parkingHistory.xsd\",\r\n        \"type\": \"ParkingHistory\",\r\n        \"startTime\": \"20190821T145822\",\r\n        \"endTime\": \"20190821T145841\",\r\n        \"lbl\": [\r\n            \"A\"\r\n        ],\r\n        \"beaconData\": {\r\n            \"major\": 18,\r\n            \"minor\": 19\r\n        },\r\n        \"refParkingLot\": \"wdc_base/sync_parking/parkingLot_1\",\r\n        \"parkingLocation\": {\r\n            \"type\": \"Point\",\r\n            \"coordinates\": [\r\n                37.4037059,\r\n                127.1594274\r\n            ]\r\n        },\r\n        \"appOS\": \"iOS\",\r\n        \"appVersion\": \"1.0.0\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{mp_url}}/{{cb}}/sync_parking/parkingHistory",
+					"host": [
+						"{{mp_url}}"
+					],
+					"path": [
+						"{{cb}}",
+						"sync_parking",
+						"parkingHistory"
+					]
+				},
+				"description": "Equivalent to container CREATE with Result Content set to 1 (Attributes)"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{  
+   "sc:busStop":{  
+      "pi":"B1X4CeR_57",
+      "ri":"B1QvdPxKqX",
+      "ty":28,
+      "ct":"20181008T152743",
+      "st":0,
+      "rn":"206000529",
+      "lt":"20181008T152743",
+      "et":"20211008T152743",
+      "cnd":"http://developers.iotocean.org/schema/busStop.xsd",
+      "type":"busStop",
+      "name":"yatapstation",
+      "direction":"south",
+      "localID":"206000529",
+      "location":{  
+         "type":"Point",
+         "coordinates":[  
+            37.4119958,
+            127.1285029
+         ]
+      },
+      "refBusLines":[  
+         "Mobius/transportation/intrabus/north/SN_citybus_1005",
+         "Mobius/transportation/intrabus/north/SN_citybus_103",
+         "Mobius/transportation/intrabus/north/SN_citybus_116-3",
+         "Mobius/transportation/intrabus/north/SN_citybus_119",
+         "Mobius/transportation/intrabus/north/SN_citybus_15-1",
+         "Mobius/transportation/intrabus/north/SN_citybus_17",
+         "Mobius/transportation/intrabus/north/SN_citybus_17-1",
+         "Mobius/transportation/intrabus/north/SN_citybus_17-1A",
+         "Mobius/transportation/intrabus/north/SN_citybus_200"
+      ]
+   }
+}

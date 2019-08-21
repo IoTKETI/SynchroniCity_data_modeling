@@ -1,6 +1,6 @@
 {
    "sc:driverInfo": {
-      "rn": "insong@gmail.com",
+      "rn": "flex-5LW3C",
       "ty": 28,
       "pi": "SkmnDBfeHX",
       "ri": "SymEIuUHrQ",
@@ -12,11 +12,20 @@
       "type": "driverInfo",
       "name": "insong@gmail.com",
       "vehicleType": "SUV",
-      "favoriteParkingBlock": "Mobius/syncParking/KETI_Block_A",
-      "favoriteParkingLot": "Mobius/syncParking/keti_lot",
+      "favoriteParkingBlock": [
+         "wdc_base/sync_parking/KETI_Block_A"
+      ],
+      "favoriteParkingLot": [
+         "wdc_base/sync_parking/parkingLot_KETI",
+         "wdc_base/sync_parking/parkingLot_1"
+      ],
       "favoriteTransportation": [
-        "subway_yataptowangsimni",
-        "SN_citybus_330"
+        "wdc_base/transportation/metro/subway_yataptowangsimni",
+        "wdc_base/transportation/intrabus/south/SN_citybus_330"
+      ],
+      "userType":[
+         "pregnant",
+         "disabled"
       ],
       "plateNumber": "35허6015",
       "phoneNumber": "010-1111-1111",

@@ -40,6 +40,8 @@
          "contactType": "City-hall"
       },
       "availableSpotNumber": 37,
+      "disabledAvailableSpotNumber": 2,
+      "pregnantAvailableSpotNumber": 3,
       "totalSpotNumber": 50,
       "refParkingSpot": [
          "Mobius/syncParking/yt_lot_3/spot_601",

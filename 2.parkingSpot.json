@@ -22,10 +22,7 @@
             ]
         },
         "status": "free",
-        "userTypeLimit": [
-            "Disabled",
-            "Pregnant"
-        ],
+        "userType": "Disabled",
         "refParkingLot": "wdc_base/sync_parking/parkingLot_1"
     }
 }

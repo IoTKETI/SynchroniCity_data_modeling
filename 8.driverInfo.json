@@ -23,10 +23,7 @@
         "wdc_base/transportation/metro/subway_yataptowangsimni",
         "wdc_base/transportation/intrabus/south/SN_citybus_330"
       ],
-      "userType":[
-         "Pregnant",
-         "Disabled"
-      ],
+      "userType": "Pregnant",
       "plateNumber": "35허6015",
       "phoneNumber": "010-1111-1111",
       "parkingLocation": {

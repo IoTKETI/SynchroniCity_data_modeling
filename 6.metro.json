@@ -5,12 +5,12 @@
       "ty": 28,
       "ct": "20181008T153531",
       "st": 0,
-      "rn": "subway_yataptowangsimni",
+      "rn": "wangsimni",
       "lt": "20181008T153531",
       "et": "20211008T153531",
       "cnd": "http://developers.iotocean.org/schema/metro.xsd",
       "type": "Metro",
-      "name": "subway_yataptowangsimni",
+      "name": "wangsimni",
       "category": [
          "Metro"
       ],

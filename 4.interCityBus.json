@@ -5,14 +5,13 @@
       "ty": 28,
       "ct": "20181028T115657",
       "st": 0,
-      "rn": "bus_dongdaegu",
+      "rn": "dongdaegu",
       "lt": "20181028T115657",
       "et": "20211028T115657",
       "cnd": "http://developers.iotocean.org/schema/interCityBus.xsd",
       "type": "InterCityBus",
-      "name": "bus_dongdaegu",
+      "name": "dongdaegu",
       "category": [
-         "InterCityBus",
          "ExpressBus"
       ],
       "destination": "Dongdaegu(Seodaegu)",

@@ -5,12 +5,12 @@
       "ty": 28,
       "ct": "20181008T153124",
       "st": 0,
-      "rn": "SN_citybus_330",
+      "rn": "330",
       "lt": "20181008T153124",
       "et": "20211008T153124",
       "cnd": "http://developers.iotocean.org/schema/intraCitybus.xsd",
       "type": "intraCitybus",
-      "name": "SN_citybus_330",
+      "name": "330",
       "category": [
          "IntraCityBus"
       ],

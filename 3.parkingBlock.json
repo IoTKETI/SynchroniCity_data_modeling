@@ -20,7 +20,7 @@
          ]
       },
       "congestionLevel": 150,
-      "refParkingLot": "Mobius/syncParking/keti_lot",
+      "refParkingLot": "wdc_base/sync_Parking/parkingLot_KETI",
       "refParkingSpot": [
          "wdc_base/sync_Parking/parkingLot_KETI/spot_001",
          "wdc_base/sync_Parking/parkingLot_KETI/spot_002",

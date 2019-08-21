@@ -12,7 +12,7 @@
         "type": "parkingHistory",
         "startTime": "20190821T145822",
         "endTime": "20190821T145841",
-        "label": [
+        "lbl": [
             "A"
         ],
         "beaconData": {
@@ -27,7 +27,7 @@
                 127.1594274
             ]
         },
-        "appType": "iOS",
+        "appOS": "iOS",
         "appVersion": "1.0.0"
     }
 }

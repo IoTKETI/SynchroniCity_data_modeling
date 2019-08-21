@@ -1,6 +1,6 @@
 {
     "sc:parkingHistory": {
-        "rn": "flex-5LW3C",
+        "rn": "flx-3K593C",
         "ty": 28,
         "pi": "SkmnDBfeHX",
         "ri": "SymEIuUHrQ",
@@ -9,7 +9,7 @@
         "lt": "20180806T051036",
         "st": 8929,
         "cnd": "http://developers.iotocean.org/schema/parkingHistory.xsd",
-        "type": "parkingHistory",
+        "type": "ParkingHistory",
         "startTime": "20190821T145822",
         "endTime": "20190821T145841",
         "lbl": [

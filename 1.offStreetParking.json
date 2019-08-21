@@ -42,12 +42,13 @@
       "availableSpotNumber": 37,
       "disabledAvailableSpotNumber": 2,
       "pregnantAvailableSpotNumber": 3,
-      "totalSpotNumber": 50,
+      "totalSpotNumber": 211,
       "refParkingSpot": [
-         "Mobius/syncParking/yt_lot_3/spot_601",
-         "Mobius/syncParking/yt_lot_3/spot_602",
-         "Mobius/syncParking/yt_lot_3/spot_603",
-         "Mobius/syncParking/yt_lot_3/spot_604"
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_401",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_402",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_403",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_404",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_405"
       ]
    }
 }

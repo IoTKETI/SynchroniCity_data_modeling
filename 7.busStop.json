@@ -21,15 +21,9 @@
          ]
       },
       "refBusLines":[  
-         "Mobius/transportation/intrabus/north/SN_citybus_1005",
-         "Mobius/transportation/intrabus/north/SN_citybus_103",
-         "Mobius/transportation/intrabus/north/SN_citybus_116-3",
-         "Mobius/transportation/intrabus/north/SN_citybus_119",
-         "Mobius/transportation/intrabus/north/SN_citybus_15-1",
-         "Mobius/transportation/intrabus/north/SN_citybus_17",
-         "Mobius/transportation/intrabus/north/SN_citybus_17-1",
-         "Mobius/transportation/intrabus/north/SN_citybus_17-1A",
-         "Mobius/transportation/intrabus/north/SN_citybus_200"
+         "wdc_base/transportation/intrabus/north/1005",
+         "wdc_base/transportation/intrabus/north/103",
+         "wdc_base/transportation/intrabus/north/116-3"
       ]
    }
 }

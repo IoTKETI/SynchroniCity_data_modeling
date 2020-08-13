@@ -1,0 +1,54 @@
+{
+   "sc:offStreetParking": {
+      "rn": "parkingLot_3",
+      "ty": 28,
+      "pi": "SkmnDBfeHX",
+      "ri": "SepCIhDWbQ",
+      "ct": "20180806T051247",
+      "et": "20210806T051247",
+      "lt": "20180806T051247",
+      "st": 132253,
+      "cnd": "http://developers.iotocean.org/schema/offStreetParking.xsd",
+      "type": "OffStreetParking",
+      "name": "parkingLot_3",
+      "category": [
+         "Public"
+      ],
+      "location": {
+         "type": "Point",
+         "coordinates": [
+            -3.678146524,
+            50.468753214
+         ]
+      },
+      "priceRate":{
+        "first30Minutes": 400,
+        "per10Minutes": 200,
+        "perDay": 6000
+      },
+      "paymentAccepted": [
+         "Cash",
+         "Credit Card"
+      ],
+      "image": "http://developers.iotocean.org/photosave/ytLot1pics",
+      "openingHours": [
+         "Mo-Su 00:00-24:00"
+      ],
+      "contactPoint": {
+         "telephone": "031-000-0000",
+         "email": "parking@seongnam.kr",
+         "contactType": "City-hall"
+      },
+      "availableSpotNumber": 37,
+      "disabledAvailableSpotNumber": 2,
+      "pregnantAvailableSpotNumber": 3,
+      "totalSpotNumber": 211,
+      "refParkingSpot": [
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_401",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_402",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_403",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_404",
+         "wdc_base/sync_parking/parkingLot_3/parkingSpot_405"
+      ]
+   }
+}

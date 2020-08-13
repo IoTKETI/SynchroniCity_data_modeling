@@ -15,7 +15,9 @@
          "wdc_base/Sync_acp"
       ],
       "cr":"SC",
-      "congestionIndex":86,
+      "availableSpotNumber": 4,
+      "totalSpotNumber": 25,
+      "congestionIndex":84,
       "refParkingSpots":[
         "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_144",
         "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_145",

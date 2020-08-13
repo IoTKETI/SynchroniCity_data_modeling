@@ -1,0 +1,28 @@
+{
+    "sc:parkingSpot": {
+        "rn": "parkingSpot_001",
+        "ty": 28,
+        "pi": "SkmnDBfeHX",
+        "ri": "SymEIuUHrQ",
+        "ct": "20180806T051036",
+        "et": "20210806T051036",
+        "lt": "20180806T051036",
+        "st": 8929,
+        "cnd": "http://developers.iotocean.org/schema/parkingSpot.xsd",
+        "type": "ParkingSpot",
+        "name": "parkingSpot_001",
+        "category": [
+            "OffStreet"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -2.558246945,
+                50.378546923
+            ]
+        },
+        "status": "free",
+        "userType": "Disabled",
+        "refParkingLot": "wdc_base/sync_parking/parkingLot_1"
+    }
+}

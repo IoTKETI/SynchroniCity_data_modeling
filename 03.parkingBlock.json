@@ -1,0 +1,31 @@
+{
+   "sc:parkingBlock": {
+      "rn": "KETI_Block_A",
+      "ty": 28,
+      "pi": "SkmnDBfeHX",
+      "ri": "SymEIuUHrQ",
+      "ct": "20180806T051036",
+      "et": "20210806T051036",
+      "lt": "20180806T051036",
+      "st": 8929,
+      "cnd": "http://developers.iotocean.org/schema/parkingBlock.xsd",
+      "type": "ParkingBlock",
+      "name": "KETI_Block_A",
+      "category": [],
+      "location": {
+         "type": "Point",
+         "coordinates": [
+            -2.558246945,
+            50.378546923
+         ]
+      },
+      "congestionLevel": 150,
+      "refParkingLot": "wdc_base/sync_Parking/parkingLot_KETI",
+      "refParkingSpot": [
+         "wdc_base/sync_Parking/parkingLot_KETI/spot_001",
+         "wdc_base/sync_Parking/parkingLot_KETI/spot_002",
+         "wdc_base/sync_Parking/parkingLot_KETI/spot_003",
+         "wdc_base/sync_Parking/parkingLot_KETI/spot_004"
+      ]
+   }
+}

@@ -15,35 +15,16 @@
          "wdc_base/Sync_acp"
       ],
       "cr":"SC",
-      "availableSpotNumber": 4,
-      "totalSpotNumber": 25,
-      "congestionIndex":84,
-      "refParkingSpots":[
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_144",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_145",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_146",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_147",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_148",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_149",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_150",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_151",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_152",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_153",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_154",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_155",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_156",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_157",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_158",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_159",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_160",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_161",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_162",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_163",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_164",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_165",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_166",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_167",
-        "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_168"
-     ]
+      "refParkingBlock":"wdc_base/sync_parking/parkingLot_KETI/KETI_Block_A", 
+      "congestionIndexPrediction":[
+         {
+            "index": 84,
+            "predictedAt": "2020-08-13T09:25:00,000+09:00"
+         },
+         {
+            "index": 88,
+            "predictedAt": "2020-08-13T09:30:00,000+09:00"
+         }
+      ]
    }
 }

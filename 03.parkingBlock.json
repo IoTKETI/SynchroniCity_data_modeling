@@ -19,6 +19,8 @@
             50.378546923
          ]
       },
+      "availableSpotNumber": 27,
+      "totalSpotNumber": 51,
       "refParkingLot": "wdc_base/sync_parking/parkingLot_KETI",
       "refParkingSpot": [
          "wdc_base/sync_parking/parkingLot_KETI/parkingSpot_001",

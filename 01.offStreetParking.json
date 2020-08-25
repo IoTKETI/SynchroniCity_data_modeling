@@ -46,11 +46,11 @@
       "congestionPrediction" : [
          {
              "index": 84,
-             "predictedFor": "2020-08-25T09:25:00,000+09:00"
+             "predictedFor": "20200825T092500"
          },
          {
              "index": 88,
-             "predictedFor": "2020-08-25T09:30:00,000+09:00"
+             "predictedFor": "20200825T093000"
          }
      ],
       "refParkingSpot": [

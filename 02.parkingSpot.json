@@ -14,7 +14,7 @@
         "category": [
             "OffStreet"
         ],
-        "location": {
+        "loc": {
             "type": "Point",
             "coordinates": [
                 -2.558246945,

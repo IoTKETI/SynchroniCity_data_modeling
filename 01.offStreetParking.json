@@ -14,7 +14,7 @@
       "category": [
          "Public"
       ],
-      "location": {
+      "loc": {
          "type": "Point",
          "coordinates": [
             -3.678146524,
@@ -43,6 +43,16 @@
       "disabledAvailableSpotNumber": 2,
       "pregnantAvailableSpotNumber": 3,
       "totalSpotNumber": 211,
+      "congestionPrediction" : [
+         {
+             "index": 84,
+             "predictedFor": "2020-08-25T09:25:00,000+09:00"
+         },
+         {
+             "index": 88,
+             "predictedFor": "2020-08-25T09:30:00,000+09:00"
+         }
+     ],
       "refParkingSpot": [
          "wdc_base/sync_parking/parkingLot_3/parkingSpot_401",
          "wdc_base/sync_parking/parkingLot_3/parkingSpot_402",

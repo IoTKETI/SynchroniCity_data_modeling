@@ -1,0 +1,25 @@
+{
+    "sc:speedSensor": {
+        "rn": "yatapElementary",
+        "ty": 28,
+        "pi": "SkmnDBfeHX",
+        "ri": "SepCIedibQ",
+        "ct": "20180806T051247",
+        "et": "20210806T051247",
+        "lt": "20200806T064547",
+        "st": 1578,
+        "cnd": "http://developers.iotocean.org/schema/speedSensor.xsd",
+        "type": "SpeedSensor",
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+                -3.678146524,
+                50.468753214
+            ]
+        },
+        "name": "야탑초등학교",
+        "speed": 35.5,
+        "sensingDirection": "남",
+        "status": "normal"
+    }
+}

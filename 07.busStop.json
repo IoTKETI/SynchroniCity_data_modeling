@@ -13,7 +13,7 @@
       "name":"yatapstation",
       "direction":"south",
       "localID":"206000529",
-      "location":{  
+      "loc":{  
          "type":"Point",
          "coordinates":[  
             37.4119958,

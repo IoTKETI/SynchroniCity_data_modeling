@@ -1,0 +1,34 @@
+{
+    "sc:evChargingStation": {
+        "rn": "evcharging_yatap_2",
+        "ty": 28,
+        "pi": "5d94369cbe40a123759e3009",
+        "ri": "5d9436f4be40a123759e300d",
+        "ct": "20200921T164214",
+        "et": "20210921T164214",
+        "lt": "20200921T164214",
+        "st": 8485,
+        "cnd": "http://developers.iotocean.org/schema/evChargingStation.xsd",
+        "cs": 0,
+        "type": "evChargingStation",
+        "acpi": [
+            "wdc_base/Sync_acp"
+        ],
+        "cr": "SC",
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+                -3.678146524,
+                50.468753214
+            ]
+        },
+        "refParkingSpot": "wdc_base/sync_parking/parkingLot_3/parkingSpot_113",
+        "refParkingLot": "wdc_base/sync_parking/parkingLot_3",
+        "chargerType": [
+            "dcCombo", 
+            "chademo",
+            "AC-3"
+        
+        ]
+    }
+}

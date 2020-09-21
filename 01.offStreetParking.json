@@ -59,6 +59,10 @@
          "wdc_base/sync_parking/parkingLot_3/parkingSpot_403",
          "wdc_base/sync_parking/parkingLot_3/parkingSpot_404",
          "wdc_base/sync_parking/parkingLot_3/parkingSpot_405"
+      ],
+      "refEvCharging": [
+         "evcharging_yatap_1",
+         "evcharging_yatap_2"
       ]
    }
 }

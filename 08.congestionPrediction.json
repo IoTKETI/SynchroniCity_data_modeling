@@ -1,0 +1,29 @@
+{
+    "sc:congestionPrediction": {
+        "rn": "congestion_KETI_Block_A",
+        "ty": 28,
+        "pi": "SkmnDBfeHX",
+        "ri": "SepCIedibQ",
+        "ct": "20180806T051247",
+        "et": "20210806T051247",
+        "lt": "20200806T064547",
+        "st": 1578,
+        "cnd": "http://developers.iotocean.org/schema/congestionPrediction.xsd",
+        "type": "CongestionPrediction",
+        "acpi": [
+            "wdc_base/Sync_acp"
+        ],
+        "congestionPrediction": [
+            {
+                "index": 84,
+                "predictedFor": "20200825T092500"
+            },
+            {
+                "index": 88,
+                "predictedFor": "20200825T093000"
+            }
+        ],
+        "refParkingLot": "wdc_base/sync_parking/parkingLot_KETI",
+        "refParkingBlock": "wdc_base/sync_parking/parkingLot_KETI/KETI_Block_A"        
+    }
+}

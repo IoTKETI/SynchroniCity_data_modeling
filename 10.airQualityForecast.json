@@ -1,0 +1,43 @@
+{
+    "sc:airQualityForecast": {
+        "rn": "flx-45DeyU",
+        "ty": 28,
+        "pi": "5d94369cbe40a123759e3009",
+        "ri": "5d9436f4be40a123759e300d",
+        "et": "20201002T143444",
+        "ct": "20191002T143444",
+        "lt": "20201014T173000",
+        "st": 8485,
+        "cnd": "http://developers.iotocean.org/schema/airQualityForecast.xsd",
+        "cs": 0,
+        "type": "airQualityForecast",
+        "acpi": [
+            "wdc_base/Sync_acp"
+        ],
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+               37.411351, 
+               127.139828
+            ]
+        },
+        "cr": "SC",
+        "airQualityPrediction": [
+            {
+                "airQualityIndex": "좋음",
+                "predictedFor": "20201015",
+                "predictedAt": "20201015T170000"
+            },
+            {
+                "airQualityIndex": "좋음",
+                "predictedFor": "20201016",
+                "predictedAt": "20201015T170000"
+            },
+            {
+                "airQualityIndex": "좋음",
+                "predictedFor": "20201017",
+                "predictedAt": "20201015T170000"
+            }
+        ]
+    }
+}

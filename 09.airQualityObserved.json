@@ -14,12 +14,20 @@
         "acpi": [
             "wdc_base/Sync_acp"
         ],
+        "loc": {
+            "type": "Point",
+            "coordinates": [
+               37.411351, 
+               127.139828
+            ]
+        },
         "cr": "SC",
         "so2": 0.005,
         "co": 0.8,
         "o3": 0.028,
         "no2": 0.077,
         "pm10": 13,
-        "pm25": 8
+        "pm25": 8,
+        "airQualityIndex": "좋음"
     }
 }

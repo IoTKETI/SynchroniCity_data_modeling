@@ -22,7 +22,11 @@
                 50.468753214
             ]
         },
-        "refParkingSpot": "wdc_base/sync_parking/parkingLot_3/parkingSpot_113",
+        "refParkingSpot": [
+            "wdc_base/sync_parking/parkingLot_3/parkingSpot_401",
+            "wdc_base/sync_parking/parkingLot_3/parkingSpot_402",
+            "wdc_base/sync_parking/parkingLot_3/parkingSpot_403"
+        ],
         "refParkingLot": "wdc_base/sync_parking/parkingLot_3",
         "chargerType": [
             "dcCombo", 
